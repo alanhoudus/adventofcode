@@ -1,5 +1,7 @@
 var array = {
 
+
+    // Array of the puzzle input
     measurement : [
         104,
         105,
