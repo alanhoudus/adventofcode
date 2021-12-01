@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(62, 58, 102);
+    color: white;
+}
+
+.measurements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    font-size: 3em;
+}
