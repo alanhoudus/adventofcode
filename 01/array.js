@@ -1,9 +1,6 @@
 var array = {
-    init: function() {
 
-    },
-
-    array = [
+    measurement : [
         104,
         105,
         109,
