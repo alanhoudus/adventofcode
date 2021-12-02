@@ -9,7 +9,7 @@ var app = {
         let increasedMesurement = 0;
         
         // Loop through each index of the array
-        for (let index = 0; index < array.measurement.length; index++) {
+        for (let index = 0; index < array.measurement.length-2; index++) {
 
             // Put in variable the group to compare
             let firstGroup = array.measurement[index] + array.measurement[index+1] + array.measurement[index+2];
@@ -18,13 +18,9 @@ var app = {
             // If second is higher than first group check if the last index is defined, if it is, increment
             if(firstGroup < secondGroup){
 
-                if(array.measurement[index+3] == undefined){
-                    console.log('undefined index')
-                }
-                else {
+
                     // Increment the counter
                     increasedMesurement++;
-                }
 
             }
         }
