@@ -1,8 +1,8 @@
-var array = {
+const array = {
 
 
     // Array of the puzzle input
-    measurement : [
+    measurement: [
         104,
         105,
         109,
@@ -2003,5 +2003,5 @@ var array = {
         7737,
         7746,
         7759
-            ]
-        }
+    ]
+}
