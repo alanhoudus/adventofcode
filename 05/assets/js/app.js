@@ -22,10 +22,10 @@ const app = {
 
         for (let index = 0; index < array.power.length; index++) {
 
-            // Set the current index in a variable
+            // Split the index in an array
             array.power[index].split(' ');
 
-
+            // Set each first number in a variable
             totalOne += parseInt(array.power[index][0]);
             totalTwo += parseInt(array.power[index][1]);
             totalThree += parseInt(array.power[index][2]);
