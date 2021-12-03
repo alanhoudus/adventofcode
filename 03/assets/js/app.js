@@ -1,4 +1,4 @@
-var app = {
+const app = {
     init: function () {
         app.loopThroughArray();
     },

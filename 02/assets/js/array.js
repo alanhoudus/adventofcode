@@ -1,4 +1,4 @@
-var array = {
+const array = {
 
     // Array of the puzzle input
     measurement: [
